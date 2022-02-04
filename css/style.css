@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-box {
+    width: 600px;
+    height: 200px;
+    background-color: #fff;
+    padding: 20px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.message-form {
+    margin: 20px 0;
+}
+
+#message {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+#submit {
+    padding: 10px 20px;
+}
+
+.warning-msg {
+    display: none;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.last-msg {
+    margin-bottom: 20px;
+}
+
+.msg-show-box {
+    color: #018257;
+}
+
+.show {
+    display: block;
+}
